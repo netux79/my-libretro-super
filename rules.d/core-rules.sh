@@ -35,31 +35,30 @@ libretro_mgba_git_url="https://github.com/libretro/mgba.git"
 libretro_mgba_build_makefile="Makefile.libretro"
 
 register_module core "fba" -psp1
-libretro_fb_alpha_name="FBA"
-libretro_fb_alpha_git_url="https://github.com/libretro/libretro-fba.git"
-libretro_fb_alpha_build_makefile="makefile.libretro"
+libretro_fba_name="FBA"
+libretro_fba_git_url="https://github.com/libretro/libretro-fba.git"
+libretro_fba_build_makefile="makefile.libretro"
 
-register_module core "fb_alpha" -psp1
-libretro_fb_alpha_name="Final Burn Alpha"
-libretro_fb_alpha_git_url="https://github.com/libretro/fba-libretro.git"
-libretro_fb_alpha_build_subdir="svn-current/trunk"
-libretro_fb_alpha_build_makefile="makefile.libretro"
+register_module core "fbalpha2012" -psp1
+libretro_fbalpha2012_name="Final Burn Alpha 2012"
+libretro_fbalpha2012_git_url="https://github.com/libretro/fbalpha2012.git"
+libretro_fbalpha2012_build_subdir="svn-current/trunk"
+libretro_fbalpha2012_build_makefile="makefile.libretro"
 
-register_module core "fb_alpha_cps1" -psp1
-libretro_fb_alpha_cps1_name="Final Burn Alpha CPS1"
-libretro_fb_alpha_cps1_git_url="https://github.com/libretro/fba_cores_cps1.git"
-libretro_fb_alpha_cps1_build_makefile="makefile.libretro"
+register_module core "fbalpha2012_cps1" -psp1
+libretro_fbalpha2012_cps1_name="Final Burn Alpha 2012 CPS-1"
+libretro_fbalpha2012_cps1_git_url="https://github.com/libretro/fbalpha2012_cps1.git"
+libretro_fbalpha2012_cps1_build_makefile="Makefile"
 
-register_module core "fb_alpha_cps2" -psp1
-libretro_fb_alpha_cps2_name="Final Burn Alpha CPS2"
-libretro_fb_alpha_cps2_git_url="https://github.com/libretro/fba_cores_cps2.git"
-libretro_fb_alpha_cps2_build_makefile="makefile.libretro"
+register_module core "fbalpha2012_cps2" -psp1
+libretro_fbalpha2012_cps2_name="Final Burn Alpha 2012 CPS-2"
+libretro_fbalpha2012_cps2_git_url="https://github.com/libretro/fbalpha2012_cps2.git"
+libretro_fbalpha2012_cps2_build_makefile="Makefile"
 
-register_module core "fb_alpha_neo" -psp1
-libretro_fb_alpha_neo_name="Final Burn Alpha NeoGeo"
-libretro_fb_alpha_neo_git_url="https://github.com/libretro/fba_cores_neo.git"
-#libretro_fb_alpha_neo_build_subdir="svn-old/trunk/fbacores/neogeo"
-libretro_fb_alpha_neo_build_makefile="Makefile"
+register_module core "fbalpha2012_neogeo" -psp1
+libretro_fbalpha2012_neogeo_name="Final Burn Alpha 2012 NeoGeo"
+libretro_fbalpha2012_neogeo_git_url="https://github.com/libretro/fbalpha2012_neogeo.git"
+libretro_fbalpha2012_neogeo_build_makefile="Makefile"
 
 register_module core "vba_next"
 libretro_vba_next_name="VBA Next"
@@ -101,8 +100,9 @@ libretro_fceumm_build_makefile="Makefile.libretro"
 register_module core "gambatte"
 libretro_gambatte_name="Gambatte"
 libretro_gambatte_git_url="https://github.com/libretro/gambatte-libretro.git"
-libretro_gambatte_build_subdir="libgambatte"
-libretro_gambatte_build_makefile="Makefile.libretro"
+#libretro_gambatte_build_subdir="libgambatte"
+#libretro_gambatte_build_makefile="Makefile.libretro"
+libretro_gambatte_build_makefile="Makefile"
 libretro_gambatte_build_platform="$FORMAT_COMPILER_TARGET_ALT"
 
 register_module core "meteor" -ngc -ps3 -psp1 -qnx -wii

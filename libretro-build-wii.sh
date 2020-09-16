@@ -20,7 +20,7 @@ if [[ -z "$1" ]]; then
 WANT_CORES=" \
 #	2048 \
 #	bluemsx \
-#	catsfc  \
+#	snes9x2005  \
 #	fceumm  \
 #	fmsx \
 #	gambatte \
@@ -32,22 +32,23 @@ WANT_CORES=" \
 #	mednafen_pcfx \
 #	mednafen_supergrafx \
 #	mednafen_wswan \
-#	mednafen_vb \
+#	picodrive \
 #	nestopia \
 #	nxengine \
 #	quicknes \
 #	prboom \
-#	snes9x_next \
+#	snes9x2010 \
 #	snes9x \
 #	vba_next \
 #	tyrquake \
-#	gw \
+#	mame2003 \
+#	mame2000 \
 #	mgba \
-#	fb_alpha_cps1 \
-#	fb_alpha_cps2 \
-#	fb_alpha_neo \
-#	fb_alpha \
-#	vecx \
+#	fbalpha2012_cps1 \
+#	fbalpha2012_cps2 \
+#	fbalpha2012_neogeo \
+#	fbalpha2012 \
+#	stella \
 #	fba \
 #  gpsp"
 else
